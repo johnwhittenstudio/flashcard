@@ -89,7 +89,6 @@ $(".clickable3").click(function() {
     alert("This is an image.");
   });
 
-});
 
 function myFunction() {
   const element = document.body;
