@@ -1,7 +1,22 @@
-.light-background {
-  background-color: white;
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
 }
 
-.dark-background {
-  background-color: black;
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.terms {
+  margin-top: 10px;
+}
+

@@ -1,10 +1,16 @@
-$(document).ready(function() {
-  $("btn#btn-light").click(function() {
-    $("body").removeClass();
-    $("body").addClass("light-background")
+function myFunction() {
+  const element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+jQuery("h1").click(function() {
+  alert("This is a heading.");
 });
 
-$("btn#btn-dark").click(function() {
-  $("body").removeClass();
-  $("body").addClass("dark-background");
+jQuery("p").click(function() {
+  alert("This is a paragraph.");
+});
+
+jQuery("img").click(function() {
+  alert("This is an image.");
 });
