@@ -1,9 +1,10 @@
-.flexboxcontainer{
+.flexboxcontainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+
 #javascript-definition {
   display: none;
 }
@@ -24,63 +25,80 @@ body {
   background-color: black;
   color: white;
 }
-.terms {
-  margin-top: 10px;
-}
+
 .javascript {
+  margin-top: 10px;
   font-size: 18px;
 }
 .operators {
+  margin-top: 10px;
   font-size: 18px;
 }
 .variables {
+  margin-top: 10px;
   font-size: 18px;
 }
 .variableNamingConventions {
+  margin-top: 10px;
   font-size: 18px;
 }
 .functions {
+  margin-top: 10px;
   font-size: 18px;
 }
 .methods {
+  margin-top: 10px;
   font-size: 18px;
 }
 .arguments {
+  margin-top: 10px;
   font-size: 18px;
 }
 .parameters {
+  margin-top: 10px;
   font-size: 18px;
 }
 .return {
+  margin-top: 10px;
   font-size: 18px;
 }
 .chainingMethods {
+  margin-top: 10px;
   font-size: 18px;
 }
 .strings {
+  margin-top: 10px;
   font-size: 18px;
 }
 .booleans {
+  margin-top: 10px;
   font-size: 18px;
 }
 .undefined {
+  margin-top: 10px;
   font-size: 18px;
 }
 .nan {
+  margin-top: 10px;
   font-size: 18px;
 }
 .null {
+    margin-top: 10px;
   font-size: 18px;
 }
 .alerts {
+  margin-top: 10px;
   font-size: 18px;
 }
 .comments {
+  margin-top: 10px;
   font-size: 18px;
 }
 .jquery {
+  margin-top: 10px;
   font-size: 18px;
 }
 .attributes {
+  margin-top: 10px;
   font-size: 18px;
 }

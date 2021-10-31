@@ -1,9 +1,20 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#javascript-term").hide();
-    $("#javascript-definition").show();
+    $("#js-hidden").toggle();
+    $("#js-showing").toggle();
   });
 });
+
+$(".clickable").click(function() {
+  $("#operators-hidden").toggle();
+  $("#operators-showing").toggle();
+});
+});
+
+
+
+
+
 
 $(document).ready(function() {
   $(".javascript").click(function() {
