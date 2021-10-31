@@ -13,20 +13,13 @@ $(".clickable2").click(function() {
   $("#variables-hidden").toggle();
   $("#variables-showing").show();
 });
+
+$(".clickable3").click(function() {
+  $("#variableNamingConventions-hidden").toggle();
+  $("#variableNamingConventions-showing").show();
+});
 });
 
-
-
-
-
-$(document).ready(function() {
-  $(".javascript").click(function() {
-    alert("An object-oriented computer programming language commonly used to create interactive effects within web browsers.");
-  });
-
-  $(".operators").click(function() {
-    alert("A special character (or characters) that indicates an action to be performed. Operators are +, -, *, /, and %.");
-  });
 
   $(".variables").click(function() {
     alert("A container that stores some information such as a number, an object, or a string. Variables can be declared with one of the following JavaScript reserved words: var, let, and const.");
