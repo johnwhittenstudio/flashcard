@@ -3,32 +3,83 @@
   flex-wrap: wrap;
   margin: 10px;
 }
-
 #javascript-definition {
   display: none;
 }
-
 .clickable {
   cursor: pointer;
   color: #0088cc;
 }
-
 .clickable:hover {
   text-decoration: underline;
 }
-
 body {
   padding: 25px;
   background-color: white;
   color: black;
   font-size: 25px;
 }
-
 .dark-mode {
   background-color: black;
   color: white;
 }
-
 .terms {
   margin-top: 10px;
+}
+.javascript {
+  font-size: 18px;
+}
+.operators {
+  font-size: 18px;
+}
+.variables {
+  font-size: 18px;
+}
+.variableNamingConventions {
+  font-size: 18px;
+}
+.functions {
+  font-size: 18px;
+}
+.methods {
+  font-size: 18px;
+}
+.arguments {
+  font-size: 18px;
+}
+.parameters {
+  font-size: 18px;
+}
+.return {
+  font-size: 18px;
+}
+.chainingMethods {
+  font-size: 18px;
+}
+.strings {
+  font-size: 18px;
+}
+.booleans {
+  font-size: 18px;
+}
+.undefined {
+  font-size: 18px;
+}
+.nan {
+  font-size: 18px;
+}
+.null {
+  font-size: 18px;
+}
+.alerts {
+  font-size: 18px;
+}
+.comments {
+  font-size: 18px;
+}
+.jquery {
+  font-size: 18px;
+}
+.attributes {
+  font-size: 18px;
 }
