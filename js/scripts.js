@@ -1,16 +1,19 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
     $("#js-hidden").toggle();
-    $("#js-showing").toggle();
+    $("#js-showing").show();
   });
-});
 
-$(".clickable").click(function() {
+$(".clickable1").click(function() {
   $("#operators-hidden").toggle();
-  $("#operators-showing").toggle();
-});
+  $("#operators-showing").show();
 });
 
+$(".clickable2").click(function() {
+  $("#variables-hidden").toggle();
+  $("#variables-showing").show();
+});
+});
 
 
 

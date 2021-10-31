@@ -4,10 +4,29 @@
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
-#javascript-definition {
-  display: none;
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.col-style {
+  padding: 5px;
+  margin: 5px;
+
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -15,90 +34,46 @@
 .clickable:hover {
   text-decoration: underline;
 }
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
+.clickable1 {
+  cursor: pointer;
+  color: #0088cc;
 }
-.dark-mode {
-  background-color: black;
-  color: white;
+.clickable1:hover {
+  text-decoration: underline;
 }
 
-.javascript {
-  margin-top: 10px;
-  font-size: 18px;
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
 }
-.operators {
-  margin-top: 10px;
-  font-size: 18px;
+.clickable2:hover {
+  text-decoration: underline;
 }
-.variables {
-  margin-top: 10px;
-  font-size: 18px;
+
+.clickable3 {
+  cursor: pointer;
+  color: #0088cc;
 }
-.variableNamingConventions {
-  margin-top: 10px;
-  font-size: 18px;
+.clickable3:hover {
+  text-decoration: underline;
 }
-.functions {
-  margin-top: 10px;
-  font-size: 18px;
+
+.clickable4 {
+  cursor: pointer;
+  color: #0088cc;
 }
-.methods {
-  margin-top: 10px;
-  font-size: 18px;
+
+.clickable4:hover {
+  text-decoration: underline;
 }
-.arguments {
-  margin-top: 10px;
-  font-size: 18px;
+  
+.clickable5 {
+  cursor: pointer;
+  color: #0088cc;
 }
-.parameters {
-  margin-top: 10px;
-  font-size: 18px;
+
+.clickable5:hover {
+  text-decoration: underline;
 }
-.return {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.chainingMethods {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.strings {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.booleans {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.undefined {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.nan {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.null {
-    margin-top: 10px;
-  font-size: 18px;
-}
-.alerts {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.comments {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.jquery {
-  margin-top: 10px;
-  font-size: 18px;
-}
-.attributes {
-  margin-top: 10px;
-  font-size: 18px;
-}
+
+
