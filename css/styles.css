@@ -84,6 +84,11 @@ body {
   color: white;
 }
 
+.card {
+  padding: 10px;
+  text-align: left;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;

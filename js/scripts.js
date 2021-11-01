@@ -18,76 +18,83 @@ $(".clickable3").click(function() {
   $("#variableNamingConventions-hidden").toggle();
   $("#variableNamingConventions-showing").show();
 });
+
+$(".clickable4").click(function() {
+  $("#functions-hidden").toggle();
+  $("#functions-showing").show();
 });
 
+$(".clickable5").click(function() {
+  $("#methods-hidden").toggle();
+  $("#methods-showing").show();
+});
 
-  $(".variables").click(function() {
-    alert("A container that stores some information such as a number, an object, or a string. Variables can be declared with one of the following JavaScript reserved words: var, let, and const.");
-  });
+$(".clickable6").click(function() {
+  $("#arguments-hidden").toggle();
+  $("#arguments-showing").show();
+});
 
-  $(".variableNamingConventions").click(function() {
-    alert("Lower camel case is the naming convention for variables whereby the first word is lowercased and all words after are capitalized.");
-  });
+$(".clickable7").click(function() {
+  $("#parameters-hidden").toggle();
+  $("#parameters-showing").show();
+});
 
-  $(".functions").click(function() {
-    alert("A block of code written to perform some specific set of tasks. We can define a function using the function keyword, followed by Name and optional parameters. Body of function is enclosed in Curly braces..");
-  });
+$(".clickable8").click(function() {
+  $("#return-hidden").toggle();
+  $("#return-showing").show();
+});
 
-  $(".methods").click(function() {
-    alert("A property of an object that contains a function definition. Methods are functions stored as object properties.");
-  });
+$(".clickable9").click(function() {
+  $("#chainingMethods-hidden").toggle();
+  $("#chainingMethods-showing").show();
+});
 
-  $(".arguments").click(function() {
-    alert("The value that is passed into a parameter. Arguments can be had by both functions and methods, and are passed into the parentheses.");
-  });
+$(".clickable10").click(function() {
+  $("#strings-hidden").toggle();
+  $("#strings-showing").show();
+});
 
-  $(".parameters").click(function() {
-    alert("A placeholder for a variable. Parameters are used when functions and methods are declared");
-  });
+$(".clickable11").click(function() {
+  $("#booleans-hidden").toggle();
+  $("#booleans-showing").show();
+});
 
-  $(".return").click(function() {
-    alert("This is an image.");
-  });
+$(".clickable12").click(function() {
+  $("#undefined-hidden").toggle();
+  $("#undefined-showing").show();
+});
 
-  $(".chainingMethods").click(function() {
-    alert("This is an image.");
-  });
+$(".clickable13").click(function() {
+  $("#nan-hidden").toggle();
+  $("#nan-showing").show();
+});
 
-  $(".strings").click(function() {
-    alert("Any set of characters - letters, numbers, exclamations points, or some combination thereof - enclosed in quotations.");
-  });
+$(".clickable14").click(function() {
+  $("#null-hidden").toggle();
+  $("#null-showing").show();
+});
 
-  $(".booleans").click(function() {
-    alert("A true or false value.");
-  });
+$(".clickable15").click(function() {
+  $("#alert-hidden").toggle();
+  $("#alert-showing").show();
+});
 
-  $(".undefined").click(function() {
-    alert("Something that has yet to be defined.");
-  });
+$(".clickable16").click(function() {
+  $("#comments-hidden").toggle();
+  $("#comments-showing").show();
+});
 
-  $(".nan").click(function() {
-    alert("Not a Number.");
-  });
+$(".clickable17").click(function() {
+  $("#jquery-hidden").toggle();
+  $("#jquery-showing").show();
+});
 
-  $(".null").click(function() {
-    alert("This is an image.");
-  });
+$(".clickable18").click(function() {
+  $("#attributes-hidden").toggle();
+  $("#attributes-showing").show();
+});
+});
 
-  $(".alerts").click(function() {
-    alert("This is an image.");
-  });
-
-  $(".comments").click(function() {
-    alert("This is an image.");
-  });
-
-  $(".jquery").click(function() {
-    alert("JavaScript library that makes it easy to make web pages interactive.");
-  });
-
-  $(".attributes").click(function() {
-    alert("This is an image.");
-  });
 
 
 function myFunction() {
