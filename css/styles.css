@@ -1,15 +1,15 @@
-.flexboxcontainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+.container-fluid {
+  padding: 20px;
 }
 body {
-  padding: 25px;
   background-color: lightblue;
 }
 .header {
   background-color: gray;
+  border: solid, gray;
+  border-radius: 50px;
+  margin-right: auto;
+  margin-left: auto;
   color: white;
   text-align: center;
   padding: 10px;
