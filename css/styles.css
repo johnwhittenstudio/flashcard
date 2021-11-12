@@ -1,11 +1,10 @@
 .container-fluid {
   padding: 20px;
+  text-align: center;
 }
-body {
-  background-color: lightblue;
-}
+
 .header {
-  background-color: gray;
+  background-color: rgb(0, 170, 226);
   border: solid, gray;
   border-radius: 50px;
   margin-right: auto;
@@ -18,6 +17,18 @@ body {
 .col-style {
   padding: 5px;
   margin: 5px;
+}
+
+.card {
+  text-align: center;
+}
+
+.green-background {
+  background-color: rgb(150, 248, 150);
+}
+
+.blue-background {
+  background-color: rgb(43, 201, 253);
 }
 
 #js-hidden {
@@ -78,10 +89,58 @@ body {
   display: none;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+#arrays-hidden {
+  display: none;
 }
+
+#looping-hidden {
+  display: none;
+}
+
+#prototype-hidden {
+  display: none;
+}
+
+#collection-hidden {
+  display: none;
+}
+
+#elements-hidden {
+  display: none;
+}
+
+#pointers-hidden {
+  display: none;
+}
+
+#callback-hidden {
+  display: none;
+}
+
+#separation-hidden {
+  display: none;
+}
+
+#business-hidden {
+  display: none;
+}
+
+#ui-hidden {
+  display: none;
+}
+
+#eventHandler-hidden {
+  display: none;
+}
+
+.body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+
 
 .card {
   padding: 10px;
@@ -90,14 +149,14 @@ body {
 
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226)
 }
 .clickable:hover {
   text-decoration: underline;
 }
 .clickable1 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable1:hover {
   text-decoration: underline;
@@ -105,7 +164,7 @@ body {
 
 .clickable2 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable2:hover {
   text-decoration: underline;
@@ -113,7 +172,7 @@ body {
 
 .clickable3 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable3:hover {
   text-decoration: underline;
@@ -121,7 +180,7 @@ body {
 
 .clickable4 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable4:hover {
   text-decoration: underline;
@@ -129,7 +188,7 @@ body {
   
 .clickable5 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable5:hover {
   text-decoration: underline;
@@ -137,7 +196,7 @@ body {
 
 .clickable6 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable6:hover {
   text-decoration: underline;
@@ -145,7 +204,7 @@ body {
 
 .clickable7 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable7:hover {
   text-decoration: underline;
@@ -153,7 +212,7 @@ body {
 
 .clickable8 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable8:hover {
   text-decoration: underline;
@@ -161,7 +220,7 @@ body {
 
 .clickable9 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable9:hover {
   text-decoration: underline;
@@ -169,7 +228,7 @@ body {
 
 .clickable10 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable10:hover {
   text-decoration: underline;
@@ -177,7 +236,7 @@ body {
 
 .clickable11 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable11:hover {
   text-decoration: underline;
@@ -185,7 +244,7 @@ body {
 
 .clickable12 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable12:hover {
   text-decoration: underline;
@@ -193,7 +252,7 @@ body {
 
 .clickable13 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable13:hover {
   text-decoration: underline;
@@ -201,7 +260,7 @@ body {
 
 .clickable14 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable14:hover {
   text-decoration: underline;
@@ -209,7 +268,7 @@ body {
 
 .clickable15 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable15:hover {
   text-decoration: underline;
@@ -217,7 +276,7 @@ body {
 
 .clickable16 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable16:hover {
   text-decoration: underline;
@@ -225,7 +284,7 @@ body {
 
 .clickable17 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable17:hover {
   text-decoration: underline;
@@ -233,8 +292,96 @@ body {
 
 .clickable18 {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(0, 170, 226);
 }
 .clickable18:hover {
+  text-decoration: underline;
+}
+
+.clickable19 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable19:hover {
+  text-decoration: underline;
+}
+
+.clickable20 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable20:hover {
+  text-decoration: underline;
+}
+
+.clickable21 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable21:hover {
+  text-decoration: underline;
+}
+
+.clickable22 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable22:hover {
+  text-decoration: underline;
+}
+
+.clickable23 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable23:hover {
+  text-decoration: underline;
+}
+
+.clickable24 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable24:hover {
+  text-decoration: underline;
+}
+
+.clickable25 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable25:hover {
+  text-decoration: underline;
+}
+
+.clickable26 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable26:hover {
+  text-decoration: underline;
+}
+
+.clickable27 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable27:hover {
+  text-decoration: underline;
+}
+
+.clickable28 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable28:hover {
+  text-decoration: underline;
+}
+
+.clickable29 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable29:hover {
   text-decoration: underline;
 }

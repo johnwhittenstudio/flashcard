@@ -93,11 +93,72 @@ $(".clickable18").click(function() {
   $("#attributes-hidden").toggle();
   $("#attributes-showing").show();
 });
+
+$(".clickable19").click(function() {
+  $("#arrays-hidden").toggle();
+  $("#arrays-showing").show();
+});
+
+$(".clickable20").click(function() {
+  $("#looping-hidden").toggle();
+  $("#looping-showing").show();
+});
+
+$(".clickable21").click(function() {
+  $("#prototype-hidden").toggle();
+  $("#prototype-showing").show();
+});
+
+$(".clickable22").click(function() {
+  $("#collection-hidden").toggle();
+  $("#collection-showing").show();
+});
+
+$(".clickable23").click(function() {
+  $("#elements-hidden").toggle();
+  $("#elements-showing").show();
+});
+
+$(".clickable24").click(function() {
+  $("#pointers-hidden").toggle();
+  $("#pointers-showing").show();
+});
+
+$(".clickable25").click(function() {
+  $("#callback-hidden").toggle();
+  $("#callback-showing").show();
+});
+
+$(".clickable26").click(function() {
+  $("#separation-hidden").toggle();
+  $("#separation-showing").show();
+});
+
+$(".clickable27").click(function() {
+  $("#business-hidden").toggle();
+  $("#business-showing").show();
+});
+
+$(".clickable28").click(function() {
+  $("#ui-hidden").toggle();
+  $("#ui-showing").show();
+});
+
+$(".clickable29").click(function() {
+  $("#eventHandler-hidden").toggle();
+  $("#eventHandler-showing").show();
 });
 
 
+$(document).ready(function() {
+  $("button#success").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
 
-function myFunction() {
-  const element = document.body;
-  element.classList.toggle("dark-mode");
-}
+  $("button#info").click(function() {
+    $("body").removeClass();
+    $("body").addClass("blue-background");
+  });
+})
+});
