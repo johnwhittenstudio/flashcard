@@ -133,6 +133,43 @@
   display: none;
 }
 
+#dom-hidden {
+  display: none;
+}
+
+#branching-hidden {
+  display: none;
+}
+
+#comparison-hidden {
+  display: none;
+}
+
+#logicalOperators-hidden {
+  display: none;
+}
+
+#rebase-hidden {
+  display: none;
+}
+
+#index-hidden {
+  display: none;
+}
+
+#oboe-hidden {
+  display: none;
+}
+
+#destructiveArrays-hidden {
+  display: none;
+}
+
+
+#arrayMethods-hidden {
+  display: none;
+}
+
 .body {
   padding: 25px;
   background-color: white;
@@ -383,5 +420,77 @@
   color: rgb(0, 170, 226);
 }
 .clickable29:hover {
+  text-decoration: underline;
+}
+
+.clickable30 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable30:hover {
+  text-decoration: underline;
+}
+
+.clickable31 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable31:hover {
+  text-decoration: underline;
+}
+
+.clickable32 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable32:hover {
+  text-decoration: underline;
+}
+
+.clickable33 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable33:hover {
+  text-decoration: underline;
+}
+
+.clickable34 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable34:hover {
+  text-decoration: underline;
+}
+
+.clickable35 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable35:hover {
+  text-decoration: underline;
+}
+
+.clickable36 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable36:hover {
+  text-decoration: underline;
+}
+
+.clickable37 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable37:hover {
+  text-decoration: underline;
+}
+
+.clickable38 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable38:hover {
   text-decoration: underline;
 }

@@ -149,6 +149,51 @@ $(".clickable29").click(function() {
   $("#eventHandler-showing").show();
 });
 
+$(".clickable30").click(function() {
+  $("#dom-hidden").toggle();
+  $("#dom-showing").show();
+});
+
+$(".clickable31").click(function() {
+  $("#branching-hidden").toggle();
+  $("#branching-showing").show();
+});
+
+$(".clickable32").click(function() {
+  $("#comparison-hidden").toggle();
+  $("#comparison-showing").show();
+});
+
+$(".clickable33").click(function() {
+  $("#logicalOperators-hidden").toggle();
+  $("#logicalOperators-showing").show();
+});
+
+$(".clickable34").click(function() {
+  $("#rebase-hidden").toggle();
+  $("#rebase-showing").show();
+});
+
+$(".clickable35").click(function() {
+  $("#index-hidden").toggle();
+  $("#index-showing").show();
+});
+
+$(".clickable36").click(function() {
+  $("#oboe-hidden").toggle();
+  $("#oboe-showing").show();
+});
+
+$(".clickable37").click(function() {
+  $("#destructiveArrays-hidden").toggle();
+  $("#destructiveArrays-showing").show();
+});
+
+$(".clickable38").click(function() {
+  $("#arrayMethods-hidden").toggle();
+  $("#arrayMethods-showing").show();
+});
+
 
 $(document).ready(function() {
   $("button#success").click(function() {
