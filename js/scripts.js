@@ -194,6 +194,21 @@ $(".clickable38").click(function() {
   $("#arrayMethods-showing").show();
 });
 
+$(".clickable39").click(function() {
+  $("#loopInitialization-hidden").toggle();
+  $("#loopInitialization-showing").show();
+});
+
+$(".clickable40").click(function() {
+  $("#loopCondition-hidden").toggle();
+  $("#loopCondition-showing").show();
+});
+
+$(".clickable41").click(function() {
+  $("#loopFinalExpression-hidden").toggle();
+  $("#loopFinalExpression-showing").show();
+});
+
 
 $(document).ready(function() {
   $("button#success").click(function() {

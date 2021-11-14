@@ -165,10 +165,24 @@
   display: none;
 }
 
-
 #arrayMethods-hidden {
   display: none;
 }
+
+#loopInitialization-hidden {
+  display: none;
+}
+
+#loopCondition-hidden {
+  display: none;
+}
+
+#loopFinalExpression-hidden {
+  display: none;
+}
+
+
+
 
 .body {
   padding: 25px;
@@ -176,8 +190,6 @@
   color: black;
   font-size: 25px;
 }
-
-
 
 .card {
   padding: 10px;
@@ -492,5 +504,29 @@
   color: rgb(0, 170, 226);
 }
 .clickable38:hover {
+  text-decoration: underline;
+}
+
+.clickable39 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable39:hover {
+  text-decoration: underline;
+}
+
+.clickable40 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable40:hover {
+  text-decoration: underline;
+}
+
+.clickable41 {
+  cursor: pointer;
+  color: rgb(0, 170, 226);
+}
+.clickable41:hover {
   text-decoration: underline;
 }
