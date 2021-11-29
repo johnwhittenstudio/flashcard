@@ -209,6 +209,70 @@ $(".clickable41").click(function() {
   $("#loopFinalExpression-showing").show();
 });
 
+$(".clickable42").click(function() {
+  $("#encapsulation-hidden").toggle();
+  $("#encapsulation-showing").show();
+});
+
+$(".clickable43").click(function() {
+  $("#object-hidden").toggle();
+  $("#object-showing").show();
+});
+
+$(".clickable44").click(function() {
+  $("#literalNotation-hidden").toggle();
+  $("#literalNotation-showing").show();
+});
+
+$(".clickable45").click(function() {
+  $("#keyValuePair-hidden").toggle();
+  $("#keyValuePair-showing").show();
+});
+
+$(".clickable46").click(function() {
+  $("#dotNotation-hidden").toggle();
+  $("#dotNotation-showing").show();
+});
+
+$(".clickable47").click(function() {
+  $("#bracketNotation-hidden").toggle();
+  $("#bracketNotation-showing").show();
+});
+
+$(".clickable48").click(function() {
+  $("#this-hidden").toggle();
+  $("#this-showing").show();
+});
+
+$(".clickable49").click(function() {
+  $("#constructor-hidden").toggle();
+  $("#constructor-showing").show();
+});
+
+$(".clickable50").click(function() {
+  $("#instance-hidden").toggle();
+  $("#instance-showing").show();
+});
+
+$(".clickable51").click(function() {
+  $("#proto-hidden").toggle();
+  $("#proto-showing").show();
+});
+
+$(".clickable52").click(function() {
+  $("#prototypalInheritance-hidden").toggle();
+  $("#prototypalInheritance-showing").show();
+});
+
+$(".clickable53").click(function() {
+  $("#enumerability-hidden").toggle();
+  $("#enumerability-showing").show();
+});
+
+
+
+
+// UI Logic //
 
 $(document).ready(function() {
   $("button#success").click(function() {
