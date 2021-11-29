@@ -269,6 +269,15 @@ $(".clickable53").click(function() {
   $("#enumerability-showing").show();
 });
 
+$(".clickable54").click(function() {
+  $("#eventBubbling-hidden").toggle();
+  $("#eventBubbling-showing").show();
+});
+
+$(".clickable55").click(function() {
+  $("#eventDelegation-hidden").toggle();
+  $("#eventDelegation-showing").show();
+});
 
 
 
